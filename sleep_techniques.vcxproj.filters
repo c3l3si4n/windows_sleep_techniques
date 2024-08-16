@@ -39,6 +39,9 @@
     <ClCompile Include="busy_sleep.cpp">
       <Filter>Source Files\techniques</Filter>
     </ClCompile>
+    <ClCompile Include="idle_event_timeout_sleep.cpp">
+      <Filter>Source Files\techniques</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="benchmark_utils.hpp">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="busy_sleep.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idle_event_timeout_sleep.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

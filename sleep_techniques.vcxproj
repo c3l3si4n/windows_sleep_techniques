@@ -134,11 +134,13 @@
     <ClCompile Include="ping_sleep.cpp" />
     <ClCompile Include="sleep_techniques.cpp" />
     <ClCompile Include="standard_sleep.cpp" />
+    <ClCompile Include="idle_event_timeout_sleep.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="benchmark_utils.hpp" />
     <ClInclude Include="busy_sleep.hpp" />
     <ClInclude Include="create_timer_queue_sleep.hpp" />
+    <ClInclude Include="idle_event_timeout_sleep.hpp" />
     <ClInclude Include="multimedia_timers.hpp" />
     <ClInclude Include="ping_sleep.hpp" />
     <ClInclude Include="standard_sleep.hpp" />

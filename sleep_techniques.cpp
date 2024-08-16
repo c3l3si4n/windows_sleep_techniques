@@ -14,6 +14,10 @@
 #include "create_timer_queue_sleep.hpp"
 #include "ping_sleep.hpp"
 #include "busy_sleep.hpp"
+#include <Windows.h>
+#include <chrono>
+#include <iostream>
+#include "idle_event_timeout_sleep.hpp"
 
 int main()
 {
@@ -22,5 +26,6 @@ int main()
     create_timer_queue_sleep(1000);
     busy_sleep(1000);
     ping_sleep(1);
+    idle_event_timeout_sleep(1000);
 }
 
