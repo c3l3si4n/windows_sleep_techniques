@@ -130,6 +130,7 @@
     <ClCompile Include="benchmark_utils.cpp" />
     <ClCompile Include="busy_sleep.cpp" />
     <ClCompile Include="create_timer_queue_sleep.cpp" />
+    <ClCompile Include="default_event_timeout.cpp" />
     <ClCompile Include="multimedia_timers.cpp" />
     <ClCompile Include="ping_sleep.cpp" />
     <ClCompile Include="sleep_techniques.cpp" />
@@ -140,6 +141,7 @@
     <ClInclude Include="benchmark_utils.hpp" />
     <ClInclude Include="busy_sleep.hpp" />
     <ClInclude Include="create_timer_queue_sleep.hpp" />
+    <ClInclude Include="default_event_timeout_sleep.hpp" />
     <ClInclude Include="idle_event_timeout_sleep.hpp" />
     <ClInclude Include="multimedia_timers.hpp" />
     <ClInclude Include="ping_sleep.hpp" />

@@ -17,15 +17,20 @@
 #include <Windows.h>
 #include <chrono>
 #include <iostream>
+#include "default_event_timeout_sleep.hpp"
 #include "idle_event_timeout_sleep.hpp"
 
 int main()
 {
+    // 'wait for enter
+    system("pause");
+    default_event_timeout_sleep(15000);
     StandardSleep(1000);
     MultimediaTimerSleep(1000);
     create_timer_queue_sleep(1000);
     busy_sleep(1000);
     ping_sleep(1);
     idle_event_timeout_sleep(1000);
+    system("pause");
 }
 

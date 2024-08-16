@@ -42,6 +42,9 @@
     <ClCompile Include="idle_event_timeout_sleep.cpp">
       <Filter>Source Files\techniques</Filter>
     </ClCompile>
+    <ClCompile Include="default_event_timeout.cpp">
+      <Filter>Source Files\techniques</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="benchmark_utils.hpp">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="idle_event_timeout_sleep.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="default_event_timeout_sleep.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
